@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.wso2.revocation
+Built-By: dushansilva
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1555428580971
+Import-Package: org.apache.axis2;version="1.6.1.wso2v27";resolution:=o
+ ptional,org.apache.commons.logging;version="1.1";resolution:=optional
+ ,org.osgi.framework;version="1.7";resolution:=optional,org.wso2.carbo
+ n.apimgt.impl;version="6.3",org.wso2.carbon.apimgt.impl.dto;version="
+ 6.3";resolution:=optional,org.wso2.carbon.apimgt.impl.internal;versio
+ n="6.3";resolution:=optional,org.wso2.carbon.apimgt.impl.utils;versio
+ n="6.3";resolution:=optional,org.wso2.carbon.identity.oauth.dto;versi
+ on="6.0",org.wso2.carbon.identity.oauth.event;version="6.0",org.wso2.
+ carbon.identity.oauth2;version="6.0",org.wso2.carbon.identity.oauth2.
+ dto;version="6.0",org.wso2.carbon.identity.oauth2.model;version="6.0"
+ ,org.wso2.revocation;resolution:=optional
+Tool: Bnd-0.0.238
+Export-Package: org.wso2.revocation;uses:="org.wso2.carbon.apimgt.impl
+ .utils,org.wso2.carbon.apimgt.impl,org.wso2.carbon.identity.oauth.eve
+ nt,org.wso2.carbon.identity.oauth2.dto,org.wso2.carbon.apimgt.impl.in
+ ternal,org.osgi.framework,org.apache.commons.logging,org.wso2.carbon.
+ identity.oauth2,org.wso2.carbon.identity.oauth2.model,org.wso2.carbon
+ .identity.oauth.dto,org.apache.axis2,org.wso2.carbon.apimgt.impl.dto"
+Bundle-Name: org.wso2.revocation
+Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Activator: org.wso2.revocation.RevocationComponent
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_172
+
